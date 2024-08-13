@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="hu">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Ajánló</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f2f2f2;
+            margin: 0;
+            padding: 0;
+        }
+        .hotel-list {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-around;
+            margin: 20px;
+        }
+        .hotel-card {
+            background-color: white;
+            border-radius: 8px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+            margin: 10px;
+            width: 300px;
+            overflow: hidden;
+            text-align: center;
+        }
+        .hotel-card img {
+            width: 100%;
+            height: auto;
+        }
+        .hotel-details {
+            padding: 15px;
+        }
+        .hotel-name {
+            font-size: 20px;
+            margin-bottom: 10px;
+        }
+        .stars, .category, .price {
+            margin-bottom: 8px;
+        }
+        .advantages, .disadvantages {
+            text-align: left;
+            margin-top: 15px;
+        }
+        .advantages ul, .disadvantages ul {
+            padding-left: 20px;
+            margin: 5px 0;
+        }
+        .advantages li, .disadvantages li {
+            margin-bottom: 5px;
+        }
+    </style>
+</head>
+<body>
+
+    <h1 style="text-align:center; margin-top: 20px;">Hotel Ajánló</h1>
+
+    <div class="hotel-list">
+        <div class="hotel-card">
+            <img src="hotel1.jpg" alt="Hotel 1">
+            <div class="hotel-details">
+                <div class="hotel-name">Hotel Éden</div>
+                <div class="stars">⭐⭐⭐⭐⭐</div>
+                <div class="category">Ultra All Inclusive</div>
+                <div class="price">Ár: 100,000 HUF/éj</div>
+                <div class="advantages">
+                    <strong>Előnyök:</strong>
+                    <ul>
+                        <li>Gyönyörű kilátás a tengerre</li>
+                        <li>Luxus szobák</li>
+                        <li>Közel a városközponthoz</li>
+                    </ul>
+                </div>
+                <div class="disadvantages">
+                    <strong>Hátrányok:</strong>
+                    <ul>
+                        <li>Magas ár</li>
+                        <li>Zsúfolt nyári szezonban</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel2.jpg" alt="Hotel 2">
+            <div class="hotel-details">
+                <div class="hotel-name">Hotel Paradicsom</div>
+                <div class="stars">⭐⭐⭐⭐</div>
+                <div class="category">All Inclusive</div>
+                <div class="price">Ár: 80,000 HUF/éj</div>
+                <div class="advantages">
+                    <strong>Előnyök:</strong>
+                    <ul>
+                        <li>Széleskörű szolgáltatások</li>
+                        <li>Kedvező ár-érték arány</li>
+                    </ul>
+                </div>
+                <div class="disadvantages">
+                    <strong>Hátrányok:</strong>
+                    <ul>
+                        <li>Nincs tengerparti hozzáférés</li>
+                        <li>Kevesebb luxus szolgáltatás</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+
+        <div class="hotel-card">
+            <img src="hotel3.jpg" alt="Hotel 3">
+            <div class="hotel-details">
+                <div class="hotel-name">Hotel Napfény</div>
+                <div class="stars">⭐⭐⭐</div>
+                <div class="category">Félpanzió</div>
+                <div class="price">Ár: 60,000 HUF/éj</div>
+                <div class="advantages">
+                    <strong>Előnyök:</strong>
+                    <ul>
+                        <li>Kedvező ár</li>
+                        <li>Családbarát környezet</li>
+                    </ul>
+                </div>
+                <div class="disadvantages">
+                    <strong>Hátrányok:</strong>
+                    <ul>
+                        <li>Egyszerűbb szobák</li>
+                        <li>Távolabb a városközponttól</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
